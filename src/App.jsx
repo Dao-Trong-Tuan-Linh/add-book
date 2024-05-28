@@ -29,7 +29,7 @@ function App() {
           oldPrice,
           genre,
           description,
-          images: image,
+          images: image.split(","),
         },
       };
       if(!res.exists()) {
